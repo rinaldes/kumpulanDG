@@ -1,0 +1,20 @@
+{
+  "short_name": "KumpulanDG",
+  "name": "Komunitas Desain Grafis Indonesia",
+  "icons": [
+    {
+      "src": "logo192.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/jpg"
+    },
+    {
+      "src": "logo512.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

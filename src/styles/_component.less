@@ -1,0 +1,165 @@
+@import "variables/_variable.less";
+
+// Logo
+.logotype {
+  font: @robotoBold;
+  .logoNormal {
+    color: @white;
+    span {
+      color: @warning-color;
+    }
+  }
+  .logoHitam {
+    color: @black;
+    span {
+      color: @primary-color;
+    }
+  }
+}
+
+// Headbar
+
+
+// Footbar
+.footbox {
+  .bottom-container{
+    position: relative;
+    box-shadow: 5px 5px 8px rgba(174, 174, 192, 0.4), -5px -5px 8px rgba(255, 255, 255, 0.3), 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    background-color: @background-color;
+    margin: -5% 5%;
+    padding: 4% 5%;
+    z-index: 10;
+    position: relative;
+  }
+  .bottom-sea{
+    background-color: @primary-color;
+    height: 90px;
+    box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF, 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+
+// Typography
+p{
+  font: @poppins;
+}
+
+h1{
+  font-size: 60px;
+  line-height: 80px;
+  color: @black
+}
+
+label{
+  font: @poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+// Galeri
+.kotak-judul-galeri {
+  background-color: @warning-color;
+  min-height: 350px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.photo-karya{
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+
+
+// Foto Orang
+.kotak-anggota{
+  text-align: center;
+  margin-bottom: 5%;
+  margin-right: 3%;
+  div{
+    width: 128px;
+    height: 128px;
+    margin: 1%;
+    object-fit: contain;
+  }
+}
+
+
+// Button
+button.secondary-button{
+  background: @warning-color;
+  border-radius: 5px;
+  padding: 0px 30px;
+  border: none;
+}
+button.secondary-button:hover{
+  background: darken(@warning-color, 25%);
+  color: @white;
+  border-radius: 5px;
+  padding: 0px 30px;
+  border: none;
+}
+
+button.primary-button{
+  background: @primary-color;
+  border-radius: 15px;
+  color: @white;
+  padding: 0px 30px;
+  border: none;
+}
+button.primary-button:hover{
+  background: @error-color;
+  border-radius: 15px;
+  color: @white;
+  padding: 0px 30px;
+  border: none;
+}
+
+
+// Login Register
+.auth-title{
+  background: @primary-color;
+  border-radius: 0px 15px 15px 0px;
+  margin-top: 5%;
+  margin-left: -2%;
+  padding-left: 10%;
+  h1{
+    color: @white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 2% 0%;
+  }
+}
+
+.auth-text{
+  margin: 0;
+  color: @black;
+  span{
+    color: @primary-color;
+  }
+}
+
+// bordered-box
+.border-gray{
+  background: #E0E0E0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
+  border-radius: 15px;
+  padding: 2.5%;
+  .bordered-box {
+    .ant-upload{
+      background: #E0E0E0;
+      h3{
+        font: @poppinsBold;
+        color: @primary-color;
+      }
+    }
+    border: 5px dashed @primary-color;
+    box-sizing: border-box;
+    padding: 2.5%;
+  }
+}

@@ -1,0 +1,52 @@
+@import "variables/_variable.less";
+
+.ant-layout-header{
+  background-color: @warning-color;
+  height: 380px;
+  padding: 0;
+  box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF, inset 0px -8px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 0px 0px 70px 70px;
+}
+
+.ant-layout-sider{
+  background-color: @warning-color;
+  box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF, inset 0px -8px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 0px 70px 70px 0px;
+  height: 100vh;
+}
+
+.ant-layout-content{
+  min-height: 100vh;
+  padding-bottom: 20vh;
+}
+
+.ant-layout-footer{
+  height: fit-content;
+  padding: 0;
+}
+
+.ant-menu.main-menu{
+  border-radius: 15px 0px 0px 15px;
+}
+
+.ant-menu.secondary-menu{
+  border-radius:  0px 15px 15px 0px;
+}
+
+input.ant-input{
+  background: @white;
+  box-shadow: 0px 0px 6px rgba(255, 49, 133, 0.25);
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+textarea.ant-input{
+  background: @white;
+  box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF, 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.ant-modal-close{
+  display: none;
+}
